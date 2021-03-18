@@ -1,5 +1,6 @@
 <template>
-  <v-app-bar
+  <v-container>
+    <v-app-bar
     id="app-bar"
     absolute
     app
@@ -10,7 +11,7 @@
 
     <v-toolbar-title
       class="hidden-sm-and-down font-weight-light"
-      v-text="'Dashboard | Pesquisas'"
+      v-text="'Lorem Ipsum | Lorem Ipsum'"
     />
 
     <v-spacer />
@@ -49,7 +50,7 @@
             bordered
           >
             <template v-slot:badge>
-              <span>5</span>
+              <span></span>
             </template>
 
             <v-icon>mdi-bell</v-icon>
@@ -72,7 +73,12 @@
       </v-list>
     </v-menu>
 
+    
+
   </v-app-bar>
+  
+  </v-container>
+
 </template>
 
 <script>
@@ -83,7 +89,7 @@
   import { mapState, mapMutations } from 'vuex'
 
   export default {
-    name: 'Navbar',
+    name: 'TheNavbar',
 
     components: {
       AppBarItem: {

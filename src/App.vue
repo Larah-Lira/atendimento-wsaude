@@ -1,20 +1,22 @@
 <template>
   <v-app>
-    <Dashboard />
+    <router-view></router-view>
   </v-app>
 </template>
 
 <script>
-import Dashboard from './views/Dashboard'
-//import Starter from './views/Starter'
+
 
 export default {
   name: 'App',
 
   components: {
-  Dashboard,
-  //Starter
+  
   },
-
+ 
 };
 </script>
+
+<style>
+
+</style>
