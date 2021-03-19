@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Dashboard from '../views/Dashboard'
-import Starter from '../views/Starter'
+import Starter from '../views/starters/Starter'
 import Login from '../views/Login'
 import Register from '../views/Register'
 

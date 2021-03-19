@@ -11,9 +11,9 @@
 </template>
 
 <script>
-import Navbar from '../components/Starter/Navbar'
-import Sidebar from '../components/Starter/Sidebar'
-import Content from '../components/Starter/Content'
+import Navbar from '../../components/Starter/Navbar'
+import Sidebar from '../../components/Starter/Sidebar'
+import Content from '../../components/Starter/Content'
 export default {
   name: 'Starter',
   components: {
